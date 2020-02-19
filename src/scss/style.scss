@@ -5,3 +5,27 @@ html {
 *, *:before, *:after {
     box-sizing: inherit;
 }
+body {
+    background: #2c2141;
+    min-height: 100vh;
+    padding: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+table {
+    border-collapse: collapse;
+    background: #f8f8f8;
+    border-radius: 16px;
+    max-width: 624px;
+    width: 100%;
+    padding: 32px;
+}
+.cell {
+    border: 2px solid black;
+    width: 100px;
+    height: 100px;
+    font-size: 60px;
+    line-height: 100px;
+    text-align: center;
+}
