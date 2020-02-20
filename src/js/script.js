@@ -3,6 +3,7 @@ function GameTable() {
     this.table = this.createTable(3,3);
     document.body.appendChild(this.table);
 }
+
 GameTable.prototype.results = [
     ['a1', 'b1', 'c1'],
     ['a2', 'b2', 'c2'],
@@ -55,6 +56,7 @@ GameTable.prototype.tdClickHandler = function(event) {
 };
 GameTable.prototype.detect = function() {
     let win 
+    console.log(win)
     const lnt = this.results.length;
     for(let row = 0; row < lnt; row++) {
         const resultsRow = this.results[row]
